@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Bliss - Your Ultimate Gardening Companion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #388E3C;
+            border-radius: 4px;
+        }
+
+        #hero {
+            background: url('https://via.placeholder.com/1500x600?text=Garden+Hero') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .cta-button {
+            background: #FFC107;
+            color: black;
+            padding: 0.75rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .cta-button:hover {
+            background: #FFA000;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        .service {
+            background: #f9f9f9;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer a {
+            color: #FFC107;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Garden Bliss</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Grow Your Green Oasis with Garden Bliss</h1>
+                <p>Your ultimate resource for expert gardening tips, tools, and inspiration.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Garden Design</h3>
+                <p>Transform your outdoor space with our bespoke garden design services.</p>
+            </div>
+            <div class="service">
+                <h3>Plant Care</h3>
+                <p>Expert advice and care tips to help your plants thrive.</p>
+            </div>
+            <div class="service">
+                <h3>Landscaping</h3>
+                <p>Professional landscaping to enhance the beauty of your garden.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Garden Bliss, we are passionate about helping you create and maintain a beautiful garden. Our team of experts provides top-notch services and guidance to make your gardening experience enjoyable and rewarding.</p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@gardenbliss.com</p>
+            <p>Phone: (123) 456-
